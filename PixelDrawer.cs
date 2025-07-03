@@ -10,7 +10,7 @@ public class PixelDrawer
     private List<Point> pixelesEncendidos;
     private PictureBox canvas;
     private Brush pixelBrush = Brushes.Black;
-    private const int ESCALA = 5;
+    private const int ESCALA = 1;
     private Bitmap bitmap;
 
     public int Delay { get; set; } = 20; // Valor por defecto

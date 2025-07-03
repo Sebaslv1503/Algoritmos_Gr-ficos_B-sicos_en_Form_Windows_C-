@@ -49,6 +49,7 @@
     <Compile Include="AlgoritmoBresenham.cs" />
     <Compile Include="AlgoritmoCirculoBresenham.cs" />
     <Compile Include="AlgoritmoDDA.cs" />
+    <Compile Include="AlgoritmoElipseBresenham.cs" />
     <Compile Include="FloodFill.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
