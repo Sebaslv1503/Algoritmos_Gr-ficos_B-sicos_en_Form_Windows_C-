@@ -144,12 +144,14 @@
             this.aCohenSutherlandToolStripMenuItem.Name = "aCohenSutherlandToolStripMenuItem";
             this.aCohenSutherlandToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.aCohenSutherlandToolStripMenuItem.Text = "A. Cohen-Sutherland";
+            this.aCohenSutherlandToolStripMenuItem.Click += new System.EventHandler(this.aCohenSutherlandToolStripMenuItem_Click);
             // 
             // aSutherlandHodgmanToolStripMenuItem
             // 
             this.aSutherlandHodgmanToolStripMenuItem.Name = "aSutherlandHodgmanToolStripMenuItem";
             this.aSutherlandHodgmanToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.aSutherlandHodgmanToolStripMenuItem.Text = "A. Sutherland-Hodgman";
+            this.aSutherlandHodgmanToolStripMenuItem.Click += new System.EventHandler(this.aSutherlandHodgmanToolStripMenuItem_Click);
             // 
             // curvasParamétricosToolStripMenuItem
             // 
@@ -157,20 +159,22 @@
             this.curvasDeBézierToolStripMenuItem,
             this.bsplineToolStripMenuItem});
             this.curvasParamétricosToolStripMenuItem.Name = "curvasParamétricosToolStripMenuItem";
-            this.curvasParamétricosToolStripMenuItem.Size = new System.Drawing.Size(127, 20);
-            this.curvasParamétricosToolStripMenuItem.Text = "Curvas Paramétricos";
+            this.curvasParamétricosToolStripMenuItem.Size = new System.Drawing.Size(126, 20);
+            this.curvasParamétricosToolStripMenuItem.Text = "Curvas Paramétricas";
             // 
             // curvasDeBézierToolStripMenuItem
             // 
             this.curvasDeBézierToolStripMenuItem.Name = "curvasDeBézierToolStripMenuItem";
             this.curvasDeBézierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.curvasDeBézierToolStripMenuItem.Text = "Curvas de Bézier";
+            this.curvasDeBézierToolStripMenuItem.Click += new System.EventHandler(this.curvasDeBézierToolStripMenuItem_Click);
             // 
             // bsplineToolStripMenuItem
             // 
             this.bsplineToolStripMenuItem.Name = "bsplineToolStripMenuItem";
             this.bsplineToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.bsplineToolStripMenuItem.Text = "B-spline";
+            this.bsplineToolStripMenuItem.Click += new System.EventHandler(this.bsplineToolStripMenuItem_Click);
             // 
             // Form1
             // 

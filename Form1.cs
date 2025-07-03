@@ -66,5 +66,27 @@ namespace AlgoritmosGraficos
         {
             AbrirFormularioEnPanel(new FrmScanlineFill());
         }
+
+        private void aCohenSutherlandToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new FrmCohenSutherland());
+        }
+
+        private void aSutherlandHodgmanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new FrmSutherlandHodgman());
+        }
+
+        private void curvasDeBézierToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new FrmCurvasBezier());
+
+        }
+
+        private void bsplineToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new FrmBSpline());
+
+        }
     }
 }

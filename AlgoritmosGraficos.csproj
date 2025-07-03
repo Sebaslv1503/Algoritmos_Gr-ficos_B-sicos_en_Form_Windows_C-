@@ -50,6 +50,9 @@
     <Compile Include="AlgoritmoCirculoBresenham.cs" />
     <Compile Include="AlgoritmoDDA.cs" />
     <Compile Include="AlgoritmoElipseBresenham.cs" />
+    <Compile Include="B-Spline.cs" />
+    <Compile Include="BezierLines.cs" />
+    <Compile Include="CohenSutherland.cs" />
     <Compile Include="FigurasPredefinidas.cs" />
     <Compile Include="FloodFill.cs" />
     <Compile Include="Form1.cs">
@@ -69,6 +72,24 @@
     </Compile>
     <Compile Include="FrmBresenhamElipse.Designer.cs">
       <DependentUpon>FrmBresenhamElipse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBSpline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBSpline.Designer.cs">
+      <DependentUpon>FrmBSpline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCohenSutherland.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCohenSutherland.Designer.cs">
+      <DependentUpon>FrmCohenSutherland.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCurvasBezier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCurvasBezier.Designer.cs">
+      <DependentUpon>FrmCurvasBezier.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmDDA.cs">
       <SubType>Form</SubType>
@@ -94,10 +115,17 @@
     <Compile Include="FrmScanlineFill.Designer.cs">
       <DependentUpon>FrmScanlineFill.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSutherlandHodgman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSutherlandHodgman.Designer.cs">
+      <DependentUpon>FrmSutherlandHodgman.cs</DependentUpon>
+    </Compile>
     <Compile Include="PixelDrawer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScanlineFill.cs" />
+    <Compile Include="SutherlandHodgman.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +134,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmBresenhamElipse.resx">
       <DependentUpon>FrmBresenhamElipse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBSpline.resx">
+      <DependentUpon>FrmBSpline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCohenSutherland.resx">
+      <DependentUpon>FrmCohenSutherland.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCurvasBezier.resx">
+      <DependentUpon>FrmCurvasBezier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmDDA.resx">
       <DependentUpon>FrmDDA.cs</DependentUpon>
