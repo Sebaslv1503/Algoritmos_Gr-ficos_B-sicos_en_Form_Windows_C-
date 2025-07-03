@@ -39,11 +39,9 @@ namespace AlgoritmosGraficos
         
         }
 
-        
-
         private async void picCanvas_MouseClick(object sender, MouseEventArgs e)
         {
-            int x = e.X / 5; // ESCALA
+            int x = e.X / 5; 
             int y = e.Y / 5;
             await floodFill.RellenarAsync(x, y);
         }

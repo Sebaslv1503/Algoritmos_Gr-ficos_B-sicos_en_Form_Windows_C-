@@ -35,28 +35,36 @@ namespace AlgoritmosGraficos
 
             formularioHijo.Show();
         }
-
-
         
 
-        private void algoritmoDDAToolStripMenuItem_Click(object sender, EventArgs e)
+        private void algoritmoDDAToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             AbrirFormularioEnPanel(new FrmDDA());
         }
 
-        private void algoritmoDiscretizacToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AbrirFormularioEnPanel(new FrmDiscretizacion());
-        }
-
-        private void algoritmoBresenhamToolStripMenuItem_Click(object sender, EventArgs e)
+        private void aBresenhamLineasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AbrirFormularioEnPanel(new FrmBresenham());
         }
 
-        private void algoritmoInundaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        private void aBresenhamElipsesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AbrirFormularioEnPanel(new FrmInundacion());
+            AbrirFormularioEnPanel(new FrmDiscretizacion());
+        }
+
+        private void aBresenhamElipseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new FrmBresenhamElipse());
+        }
+
+        private void floodFillToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new FrmFloodFill());
+        }
+
+        private void scanlineToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new FrmScanlineFill());
         }
     }
 }
